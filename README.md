@@ -3,6 +3,7 @@ title: "HW3 R markdown"
 author: "2176304 Chaewon Lee"
 output: html_document
 ---
+rsconnect::writeManifest()
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
