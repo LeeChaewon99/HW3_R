@@ -3,7 +3,6 @@ title: "HW3 R markdown"
 author: "2176304 Chaewon Lee"
 output: html_document
 ---
-rsconnect::writeManifest()
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -42,7 +41,8 @@ Predictive data analysis(예측분석)|**predict**(예측) another measurement (
 Causal data analysis(인과관계분석)|seek to find out what happens to one measurement on average if you make another measurement **change**(인과, e.g., causal relationship between smoking and cancer)
 Mechanistic data analysis(결정론적관계분석)|seek to show that **changing** one measurement always and exclusively leads to a specific, deterministic behavior in another(인과, e.g., wing design)
 |
-![<span style="color:gray">from Leek & Peng (2015)</span>](leekandpeng .png)
+![<span style="color:gray">from Leek & Peng (2015)</span>](https://bookdown.org/sunboklee/ewha_r/images/leekandpeng.png)
+
 
 * Leek & Peng(2015)’s main point is that we should keep in mind the type of question being asked by our own data analysis. In other words, we should say **what we can say**, not **what we want to say**.
 
@@ -62,4 +62,4 @@ Descriptive|Inferential|	n of 1 analysis
 * It is known that the best way to investigate causal relationship is to conduct **randomized experiments**. However, unlike in natural science, it is not easy to conduct randomized experiments in social science because of ethical and practical reasons. The fundamental dilemma of data analysis in social science is that we essentially want to make causal statements in the absence of randomized experiments. Many statistical tools we use are just **correlational**.
 * In the field of the philosophy of science, it is usually said that the goals of science is **explanation** and **prediction**:
 
-> <span style="color:gray"> “Historically, social scientists have sought out **explanations** of human and social phenomena that provide **interpretable causal mechanisms**, while often ignoring their **predictive accuracy**. We argue that the increasingly computational nature of social science is beginning to reverse this traditional bias against prediction.” (Hofman et al., 2017)</span>
+> <span style="color:gray"> “Historically, social scientists have sought out **explanations** of human and social phenomena that provide **interpretable causal mechanisms**, while often ignoring their **predictive accuracy**. We argue that the increasingly computational nature of social science is beginning to reverse this traditional bias against prediction
